@@ -1,7 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 
-string[] Foods = {"Pane", "Acqua", "Ciccio", "Anguria", "Arancia", "Pasta", "Pizza"};
+string[] Foods = {"Pane", "Acqua", "Ciccio", "Americana", "Arancia", "Pasta", "Pizza"};
 
 Console.WriteLine($"N: {Foods.Length}");
 
@@ -14,4 +14,12 @@ foreach (string Food in Foods)
 Console.WriteLine($"Primo Elemento: {Foods[(Foods.Length -1) - (Foods.Length - 1)]}");
 Console.WriteLine($"Ultimo Elemento: {Foods[Foods.Length-1]}");
 
+//Dispari
+if(Foods.Length % 2 == 0)
+    Console.WriteLine($"Elementi in Mezzo: {Foods[(Foods.Length - 1) / 2]} Centro 2: {Foods[(Foods.Length - 1) / 2 + 1]}");
+else
+    Console.WriteLine($"Elemento in Mezzo: {Foods[(Foods.Length - 1) / 2]}");
+
 Console.ReadLine();
+
+
