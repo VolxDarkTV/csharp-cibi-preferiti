@@ -17,6 +17,7 @@ Console.WriteLine($"Ultimo Elemento: {Foods[Foods.Length-1]}");
 //Pari
 if(Foods.Length % 2 == 0)
     Console.WriteLine($"Elementi in Mezzo: {Foods[(Foods.Length - 1) / 2]} Centro 2: {Foods[(Foods.Length - 1) / 2 + 1]}");
+//Dispari
 else
     Console.WriteLine($"Elemento in Mezzo: {Foods[(Foods.Length - 1) / 2]}");
 
