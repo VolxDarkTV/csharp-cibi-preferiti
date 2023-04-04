@@ -14,7 +14,7 @@ foreach (string Food in Foods)
 Console.WriteLine($"Primo Elemento: {Foods[0]}");
 Console.WriteLine($"Ultimo Elemento: {Foods[Foods.Length-1]}");
 
-//Dispari
+//Pari
 if(Foods.Length % 2 == 0)
     Console.WriteLine($"Elementi in Mezzo: {Foods[(Foods.Length - 1) / 2]} Centro 2: {Foods[(Foods.Length - 1) / 2 + 1]}");
 else
